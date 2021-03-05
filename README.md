@@ -2,9 +2,10 @@
 
 Discord STT is a program that allows you to use microphone input to send messages directly to a text channel.
 
-## Module Requirements
+## Requirements
 
 Discord
+
 Speech Recognition
 
 ## Usage
