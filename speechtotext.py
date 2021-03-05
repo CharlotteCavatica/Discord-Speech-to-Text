@@ -13,7 +13,7 @@ def file_Creation(filename, filevar, objecttype): # file_Creation(NAME OF FILE, 
         object = str(filevar.read())
     else: # If it doesn't exist, create the file and write the input into it.
         filevar = open(filename, "w+")
-        object = input(f"What is your {objecttype}?")
+        object = input(f"What is your {objecttype}?\t")
         filevar.write(object)
     filevar.close()
     return object # Return the string contained in the file.
