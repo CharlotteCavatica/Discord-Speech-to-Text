@@ -1,7 +1,8 @@
 import speech_recognition as sr 
 import discord
-from os import path, remove
 from discord import Webhook, RequestsWebhookAdapter
+from os import path, remove
+
 
 client = discord.Client()
 
